@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- linking css -->
+  <link rel="stylesheet" href="public/style.css">
+  <!-- linking bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- adding bootstrap javascropt -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <title>FootWear</title>
+</head>
+
+<body>
+  <section>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <h4>FootWear</h4>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active nav-item" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item" href="contact">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link nav-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Account
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="SignUp">Sign Up <i class="far fa-user-circle"></i> </a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">My Orders </a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Wishlist <i class="fas fa-heart"></i></a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Bag <i class="fas fa-shopping-bag"></i></a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section id="infoPage">
+
+    <h1 class="infohead">Get your feet styled and comfort them at the same time</h1>
+    <h4>We got you</h4>
+
+  </section>
+  <section id="types">
+    <h1><strong>TIME TO SHOP!</strong></h1> <br>
+    <div class="row">
+      <div class="col-lg-6">
+        <h4>WOMEN</h4>
+        <img src="https://tse4.mm.bing.net/th?id=OIP.iDLGDo_u-nkfb8R5qN9r1gHaHL&pid=Api&P=0&w=183&h=178" alt="For women" width="300" height="300">
+        <br> <br>
+        <a href="ForWomen"><strong>Footwear for Women</strong></a>
+      </div>
+      <div class="col-lg-6">
+        <h4>MEN</h4>
+        <img src="http://wallup.net/wp-content/uploads/2016/05/02/51270-Suicide_Girls-shoes.jpg" alt="For Men" width="300" height="300">
+        <br> <br>
+        <a href="ForMen"><strong>Footwear for Men</strong></a>
+      </div>
+    </div>
+  </section>
+  <section id="offers">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <h1 class="offerh1">Get 10% Offer on your first order!</h1>
+          <p>So, what are you waiting for</p>
+          <p>Sign and start Shopping</p>
+        </div>
+        <div class="carousel-item active">
+          <h1 class="offerh1">SPECIAL OFFERS</h1>
+          <p>We would be offering various types of offers and competitions on first day of EVERY month!</p>
+          <p>Isn't this exciting?</p>
+          <p>Do not forget to check our website</p>
+        </div>
+        <div class="carousel-item">
+          <h1 class="offerh1">Birthday Offers!</h1>
+          <p>FootWears is there to celebrate your special day and will make it even more special for you</p>
+          <p>Exclusive birthday offers available</p>
+          <button id="birthdate-btn" class="btn btn-dark" type="button" name="button">Click here to add your Birthdate</button>
+        </div>
+      </div>
+      <br> <br> <br>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section id="Download">
+    <h1>Download our App</h1>
+    <p>Available in both Android and IOS</p>
+    <button class="btn btn-outline-light"type="button" name="button">Download for <i class="fab fa-apple"></i></button>
+    <button class="btn btn-outline-light"type="button" name="button">Download for <i class="fab fa-android"></i></button>
+  </section>
+  <footer>
+    <div id="last"class="row ">
+      <div class="col-lg-3">
+        <p class="lastpara">SHOP</p>
+        <a href="#">ABOUT</a><br>
+        <a href="#">FAQ</a><br>
+        <a href="#">DILEVERY/PICK-UP</a><br>
+        <a href="contact.html">CONTACT ME</a>
+      </div>
+      <div class="col-lg-3">
+        <p class="lastpara">OPENING HOURS</p>
+        <p>Mon - Fri: 7am - 10pm </p>
+        <p>Saturday: 8am - 10pm</p>
+        <p>Sunday: 8am - 11pm</p>
+      </div>
+      <div class="col-lg-3">
+        <p class="lastpara">ADDRESS</p>
+        <p>ABC Block, Rajouri Garden, New Delhi, India</p>
+      </div>
+      <div class="col-lg-3">
+        <p class="lastpara">SIGN UP NOW</p>
+        <input type="email" name="" value=""> </input> <br>
+        <br><button id="lastbtn" class="btn btn-outline-light " type="button" name="button">SUBSCRIBE NOW</button>
+      </div>
+    </div>
+    </div>
+    <div id="socialmedia" class="copyright">
+      <p>© 2021 Sonakshi Mugrai</p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+    </div>
+
+  </footer>
+  <script src="app.js" type="text/javascript"></script>
+
+</body>
+
+
+</html>
